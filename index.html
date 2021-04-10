@@ -48,6 +48,12 @@
     }
 
     async function shareMsg() {
+      await liff.shareTargetPicker([
+        {
+          "type":"text",
+          "text":"this is mainframe"
+        }
+      ])
     }
 
     function logOut() {
